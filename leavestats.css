@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+.box{
+    padding: 0px;
+   
+   
+    
+    width: 220px;
+     margin: 10px;
+}
+.head{
+      border-top: 1px solid rgb(226, 226, 226);
+      border-right: 1px solid rgb(226, 226, 226);
+      border-left: 1px solid rgb(226, 226, 226);
+    border-radius: 15px 15px 0px 0px;
+
+}
+h5{
+    font-size: small;
+    color: rgb(126, 126, 126);
+    padding-left: 17px;
+    
+}
+.num{
+    color: rgb(68, 68, 68);
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 17px;
+    padding-top: 5px;
+}
+p{
+    background-color: rgb(68, 68, 68);
+    color: white;
+    height: 30px;
+    padding: 30px;
+    border-radius: 0px 0px 15px 15px;
+    margin: 0px;
+    
+}
+.icons{
+    margin-left: 20px;
+    color: rgb(152, 221, 248);
+    font-size: small;
+}
+.icons1{
+    margin-left: 50px;
+    color: rgb(152, 221, 248);
+    font-size: small;
+}
+.icons2{
+    margin-left: 70px;
+    color: rgb(255, 0, 0);
+    font-size: small;
+    font-weight: 400px;
+}
+
