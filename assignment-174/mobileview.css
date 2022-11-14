@@ -1,0 +1,175 @@
+@media  (max-width:706px){
+
+   
+   
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        background-color: rgb(216, 216, 216);
+    }
+  
+    .container{
+        background-color: rgb(255, 255, 255) !important;
+        border-radius: 8px;
+        height: 740px;
+        max-width: 522px;
+        margin: auto;
+        padding-top: 10px;
+        padding-left: 10px;
+        
+    
+    }
+    .pto{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .heading{  
+        width: 200px;
+       height: 0px;
+        margin-top: -10px;
+        
+       
+    }
+    .pending{
+        border-radius: 20px;
+    
+      
+    margin-right: 10px;
+     
+     background-color: rgb(230, 230, 230);
+     padding-top: 8px;
+     margin-top: 5px;
+     padding-bottom: 8px;
+     padding-right: 10px;
+     padding-left: 5px;
+    }
+    
+    
+    .pending-icon{font-size: 10px;
+        color:           rgb(206, 206, 206);
+        background-color: rgb(95, 94, 94);
+        padding: 4px 4px 4px 4px;
+        border-radius: 10px;
+        align-content: center;
+    
+    }
+    
+    .box{
+
+        
+        display: flex;
+        margin-top: 10px;
+        border: 1px solid rgb(161, 161, 161);
+        max-width: 500px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        border-radius: 8px;
+        height: 70px;
+       justify-content: space-between;
+        
+    }
+    .day{
+    margin-top: 15px;
+    margin-bottom: 12px;
+    }
+    .month{
+    
+    font-weight: 900;
+    
+    }
+    .year{
+     margin-top: 45px;
+     margin-right: 10px;
+       
+       
+        color: rgb(104, 104, 104);
+    }
+    .purpos{
+         width: 170px;
+        background-color: rgb(226, 226, 226);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        border-radius: 8px;
+        color: rgb(3, 136, 245);
+       
+    
+    }
+    .box3{
+        margin-top: 5px;
+        
+    
+    }
+    .form3{
+        max-width: 504px;
+        margin-top: 20px;
+        padding-bottom: 60px;
+      padding-left: 7px;
+        border-radius: 4px;
+    
+      background-color:       rgb(247, 251, 255);
+    border: 1px solid           rgb(190, 198, 209);
+    }
+    .note-input{
+        width: 504px;
+        padding-bottom: 90px;
+        
+    
+    }
+    .arrow{
+        margin-top: 65px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        display: none;
+        
+    }
+    hr{
+        margin-top: 20px;
+        
+        
+        border: none;
+        padding-bottom: 2px;
+        background-color: rgb(233, 233, 233);
+        max-width: 510px;
+        margin-right: 10px;
+        
+    }
+    .work-days{
+        color: rgb(136, 136, 136);
+     
+        margin-top: 25px;
+    
+    }
+    .btn{
+        text-align: right;
+        margin-top: 20px;
+        margin-right: 10px;
+        
+    }
+    .reject{
+        padding: 10px 20px 10px 20px;
+        margin-right: 15px;
+        background-color: white;
+        border: 1px solid red;
+        border-radius: 5px;
+        font-weight: 600;
+        color: red;
+    
+    
+    }
+    .approve{
+        padding: 10px 20px 10px 20px;
+        border: 1px solid rgb(3, 136, 245);
+        border-radius: 5px;
+        color: white;
+        background-color: rgb(3, 136, 245);
+        font-weight: 600;
+    
+    }
+.note{
+    margin-top: -5px;
+}
+}

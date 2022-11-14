@@ -1,20 +1,22 @@
+@media (min-width:706px) and (max-width:1900px){
+
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
-.background{
+
+body{
     background-color: rgb(216, 216, 216);
-    height: 3000px;
-    padding-top: 20px;
-    
 }
 .container{
-    margin: 10px;
     background-color: rgb(255, 255, 255) !important;
     border-radius: 8px;
     height: 580px;
     width: 690px;
+   margin: auto;
     padding-top: 10px;
     padding-left: 10px;
+    
+
 }
 .pto{
     margin-top: 10px;
@@ -55,10 +57,11 @@
     display: flex;
 }
 .box{
+    display: flex;
     margin-top: 30px;
     border: 1px solid rgb(161, 161, 161);
     width: 200px;
-    padding-left: 10px;
+   justify-content: space-between;
     padding-bottom: 10px;
     border-radius: 8px;
     height: 70px;
@@ -67,15 +70,18 @@
 .day{
 margin-top: 15px;
 margin-bottom: 12px;
+margin-left: 5px;
 }
 .month{
 
 font-weight: 900;
+margin-left: 5px;
 
 }
 .year{
    
-    padding-left: 60px;
+    margin-top: 43px;
+    margin-right: 10px;
     color: rgb(104, 104, 104);
 }
 .purpos{
@@ -95,7 +101,7 @@ font-weight: 900;
 
 }
 .form3{
-    width: 670px;
+    max-width: 670px;
     margin-top: 20px;
     padding-bottom: 60px;
     padding-left: 7px;
@@ -116,9 +122,16 @@ border: 1px solid           rgb(190, 198, 209);
     padding-right: 15px;
     
 }
-.hr{
-    padding-left: 4px;
-    color: rgb(214, 214, 214);
+hr{
+    margin-top: 30px;
+    
+    
+    border: none;
+    padding-bottom: 2px;
+    background-color: rgb(233, 233, 233);
+    width: 675px;
+    margin-right: 13px;
+    
 }
 .work-days{
     color: rgb(136, 136, 136);
@@ -152,3 +165,9 @@ border: 1px solid           rgb(190, 198, 209);
     font-weight: 600;
 
 }
+
+
+
+}
+
+
