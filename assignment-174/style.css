@@ -1,0 +1,173 @@
+@media (min-width:706px) and (max-width:1900px){
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(216, 216, 216);
+}
+.container{
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 8px;
+    height: 580px;
+    width: 690px;
+   margin: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+
+}
+.pto{
+    margin-top: 10px;
+    display: flex;
+    
+}
+.heading{  
+    width: 300px;
+   height: 0px;
+    margin-top: -10px;
+    
+   
+}
+.pending{
+    border-radius: 20px;
+
+  
+      
+ margin-left: 285px;
+ background-color: rgb(230, 230, 230);
+ padding-top: 8px;
+ margin-top: 5px;
+ padding-bottom: 8px;
+ padding-right: 10px;
+ padding-left: 5px;
+}
+
+
+.pending-icon{font-size: 10px;
+    color:           rgb(206, 206, 206);
+    background-color: rgb(95, 94, 94);
+    padding: 4px 4px 4px 4px;
+    border-radius: 10px;
+    align-content: center;
+
+}
+.form2{
+    display: flex;
+}
+.box{
+    display: flex;
+    margin-top: 30px;
+    border: 1px solid rgb(161, 161, 161);
+    width: 200px;
+   justify-content: space-between;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    height: 70px;
+    
+}
+.day{
+margin-top: 15px;
+margin-bottom: 12px;
+margin-left: 5px;
+}
+.month{
+
+font-weight: 900;
+margin-left: 5px;
+
+}
+.year{
+   
+    margin-top: 43px;
+    margin-right: 10px;
+    color: rgb(104, 104, 104);
+}
+.purpos{
+     width: 170px;
+    background-color: rgb(226, 226, 226);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+    color: rgb(3, 136, 245);
+   
+
+}
+.box3{
+    margin-top: 13px;
+    margin-left: 30px;
+
+}
+.form3{
+    max-width: 670px;
+    margin-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 7px;
+    border-radius: 4px;
+
+  background-color:       rgb(247, 251, 255);
+border: 1px solid           rgb(190, 198, 209);
+}
+.note-input{
+ 
+    width: 670px;
+    padding-bottom: 90px;
+
+}
+.arrow{
+    margin-top: 65px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+hr{
+    margin-top: 30px;
+    
+    
+    border: none;
+    padding-bottom: 2px;
+    background-color: rgb(233, 233, 233);
+    width: 675px;
+    margin-right: 13px;
+    
+}
+.work-days{
+    color: rgb(136, 136, 136);
+ 
+    margin-top: 25px;
+
+}
+.btn{
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+}
+.reject{
+    padding: 10px 20px 10px 20px;
+    margin-right: 15px;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-weight: 600;
+    color: red;
+
+
+}
+.approve{
+    padding: 10px 20px 10px 20px;
+    border: 1px solid rgb(3, 136, 245);
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(3, 136, 245);
+    font-weight: 600;
+
+}
+
+
+
+}
+
+
